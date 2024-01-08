@@ -1,0 +1,52 @@
+.right-context {
+    /* margin-left: 200px; */
+    /* width: 100px; */
+    position: fixed;
+    right: 0;
+    top: 50px;
+    z-index: 1;
+    /* height: 50px; */
+}
+.right-context .awwwards {
+    position: relative;
+    right: -100px;
+    margin: 0;
+}
+
+.right-context .cloud-sound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-aside-color);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.right-context .cloud-sound svg{
+    width: 25px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: red;
+}
+
+.right-context .cloud-sound a {
+    color: #ea4848;
+}
+
+@media (max-width: 1300px) {
+    .sound {
+        display: none;
+    }
+
+    .right-context .cloud-sound {
+        width: 90px;
+    }
+
+    .right-context .awwwards {
+        position: relative;
+        right: -55px;
+        margin: 0;
+    }
+}

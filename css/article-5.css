@@ -1,0 +1,84 @@
+.article-5 {
+    display: grid;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* position: relative; */
+    grid-template-columns: 1fr 3fr;
+    gap: 100px;
+}
+
+.sign {
+    background: black;
+    width: 210px;
+    height: 150px;
+    margin-top: 100px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-tag-open input, .form-tag-open textarea {
+    width: 49%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 1rem;
+    background: #292929;
+    border: none;
+    transition: all 0.1s linear;
+}
+
+.form-tag-open input:focus,
+.form-tag-open textarea:focus {
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+
+.form-tag-open input::before,
+.form-tag-open textarea::before {
+    content: "";
+    position: relative;
+
+    border-bottom: 2px solid white;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+
+
+.form-tag-open .name-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-tag-open div{
+    margin-bottom: 10px;
+}
+
+.form-tag-open div {
+    width: 600px;
+}
+
+.form-tag-open .subject input, .form-tag-open textarea{
+    width: 100%;
+}
+.form-tag-open textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+
+
+.form-tag-open button {
+    position: relative;
+    left: 67%;
+}
+
+@media (max-width: 1300px) {
+    .article-5 {
+        display: block;
+    }
+}
+

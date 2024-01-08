@@ -1,0 +1,37 @@
+.blog {
+    font-size: 20rem;
+    font-weight: 700;
+    position: absolute;
+    z-index: -1;
+    opacity: 10%;
+}
+
+.article-open-tag {
+    display: grid;
+    /* grid-template-rows: repeat(2, 400px); */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 50px 100px;
+
+}
+
+.blog-1 .topic {
+    width: 75%;
+    color: #ea4848;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.blog-1 .date {
+    font-style: italic;
+    font-size: smaller;
+    margin-bottom:20px;
+}
+
+.blog-1 .content {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.blog-1 a {
+    background: none;
+}

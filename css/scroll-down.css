@@ -1,0 +1,63 @@
+.scroll {
+    width: 90vw;
+    /* margin-left: 5%; */
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    right: 70px;
+    z-index: -1;
+}
+
+.scroll-down {
+    position: relative;
+    /* right: 53%; */
+    /* top: 550px; */
+    font-size: 0.90rem;
+    animation: scroll  2.5s infinite ease-in-out;
+    /* width: 100px; */
+}
+.scroll-down2 {
+    position: relative;
+    /* left: 20%; */
+    /* top: 550px; */
+    font-size: 0.90rem;
+    /* justify-content: flex-start; */
+    animation: scroll  2.5s infinite ease-in-out;
+    /* width: 100px; */
+}
+
+.scroll-down p, .scroll-down2 p {
+    transform: rotate(90deg);
+}
+
+@keyframes scroll {
+    0% {
+        /* transform: rotate(90deg); */
+        transform: translate(0, 10px);
+    }
+    25% {
+        /* transform: rotate(90deg); */
+        transform: translate(0, -10px);
+    }
+    50% {
+        /* transform: rotate(90deg); */
+        transform: translate(0, 10px);
+    }
+    75% {
+        /* transform: rotate(90deg); */
+        transform: translate(0, -10px);
+    }
+    100% {
+        /* transform: rotate(90deg); */
+        transform: translate(0, 10px);
+    }
+    
+}
+
+@media(max-width: 1300px) {
+    .scroll {
+        width: 100vw;
+    }
+}

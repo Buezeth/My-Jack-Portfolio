@@ -1,0 +1,47 @@
+/* .section-open-tag {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    height: 300px;
+} */
+.section-open-tag .row-1, .section-open-tag .row-2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    height: 300px;
+}
+
+
+.section-open-tag .row-1 div, .section-open-tag .row-2 div {
+    /* background-color: blue; */
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-open-tag .row-1 div::before,
+.section-open-tag .row-2 div::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background: white;
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+} 
+
+.section-open-tag .row-1 div:hover::before,
+.section-open-tag .row-2 div:hover::before {
+    content: "View Project";
+    text-align: center;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    transform: scale(100%, 100%);
+    background: white;
+}

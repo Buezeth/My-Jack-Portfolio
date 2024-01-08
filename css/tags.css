@@ -1,0 +1,65 @@
+.html-open-tag::before {
+    content: "<html>";
+    
+}
+.html-open-tag::after {
+    content: "</html>";
+    /* left: 10px; */
+}
+
+
+.body-open-tag::before {
+    content: "<body>";
+    left: 10px;
+}
+.body-open-tag::after {
+    content: "</body>";
+    left: 10px;
+}
+
+
+.bouncing-letters::before {
+    content: "<h1>";
+    left: -20px;
+}
+.bouncing-letters::after {
+    content: "</h1>";
+    left: -20px;
+}
+
+
+.p-open-tag::before {
+    content: "<p>";
+    left: -20px;
+}
+.p-open-tag::after {
+    content: "</p>";
+    left: -20px;
+}
+
+.section-open-tag::before {
+    content: "<section>";
+    left: -20px;
+}
+.section-open-tag::after {
+    content: "</section>";
+    left: -20px;
+}
+
+.blog-1::before {
+    content: "<article>";
+    left: -20px;
+}
+.blog-1::after {
+    content: "</article>";
+    left: -20px;
+}
+
+.form-tag-open::before {
+    content: "<form>";
+    left: -20px;
+}
+.form-tag-open::after {
+    content: "</form>";
+    left: -20px;
+}
