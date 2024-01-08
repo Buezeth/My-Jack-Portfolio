@@ -32,11 +32,10 @@
 .form-tag-open input:focus,
 .form-tag-open textarea:focus {
     outline: none;
-    border-bottom: 2px solid white;
 }
 
 
-.form-tag-open input::before,
+/* .form-tag-open input::before,
 .form-tag-open textarea::before {
     content: "";
     position: relative;
@@ -45,15 +44,19 @@
     width: 100px;
     height: 100px;
     background: blue;
-}
+} */
 
 
 
 .form-tag-open .name-email {
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
+    gap: 10px;
 }
-
+.name-email div input {
+    width: 100% !important;
+}
 .form-tag-open div{
     margin-bottom: 10px;
 }
@@ -75,6 +78,34 @@
     position: relative;
     left: 67%;
 }
+
+/* input {
+    position: relative;
+} */
+
+.input-filler {
+    width: 100%;
+}
+
+.input-filler::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    animation: inputborder 0.3s ease-out;
+}
+
+@keyframes inputborder {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
 
 @media (max-width: 1300px) {
     .article-5 {
