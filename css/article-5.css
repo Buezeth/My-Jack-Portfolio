@@ -96,6 +96,19 @@
     bottom: 0;
     animation: inputborder 0.3s ease-out;
 }
+.input-fillerout {
+    width: 100%;
+}
+
+.input-fillerout::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 0%;
+    position: relative;
+    bottom: 0;
+    animation: inputborderout 0.3s ease-out;
+}
 
 @keyframes inputborder {
     0% {
@@ -106,6 +119,14 @@
     }
 }
 
+@keyframes inputborderout {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
 
 @media (max-width: 1300px) {
     .article-5 {

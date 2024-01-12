@@ -15,6 +15,11 @@
     animation: bouncing 0.7s ease;
 }
 
+.rebounce {
+    animation: bouncing 0.7s ease;
+    color: red;
+}
+
 @keyframes bouncing {
     20%, 50%, 80%, to {
         transform: scale(1,1);

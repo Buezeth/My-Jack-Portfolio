@@ -1,0 +1,49 @@
+.charging {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* padding-inline: 100px; */
+    background: var(--background-main-color);
+    /* background: blue; */
+    /* border: solid 2px black; */
+    z-index: 1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jack-logo .jack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.jack-logo .jack svg {
+    width: 30px;
+}
+
+.jack-logo .jack p {
+    font-weight: 900;
+}
+
+.jack-logo .jack .thinking {
+    font-weight: 100;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+}
+
+#myProgress {
+    width: 30%;
+    background-color: #000000;
+    height: 2px;
+    overflow: hidden;
+  }
+  
+  #myBar {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,0,0,1));
+  }
