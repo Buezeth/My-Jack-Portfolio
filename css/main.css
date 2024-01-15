@@ -63,6 +63,7 @@ body {
 .aside-right .external-logos svg {
     /* background: wheat; */
     width: 25px;
+    fill: #08fdd8;
 }
 .aside-right .jack {
     height: 180px;
