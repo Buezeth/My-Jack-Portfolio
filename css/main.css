@@ -148,7 +148,17 @@ a {
     border-radius: 5px;
 }
 
+.scroll-appearance{
+    position: relative;
+    top: 0;
+    opacity: 1;
+    transition: opacity .7s, top 1s;
+}
 
+.hidden{
+    opacity:0;
+    top: 100px;
+  }
 
 
 
