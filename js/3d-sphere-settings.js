@@ -80,13 +80,13 @@ $(document).ready(function () {
         entries: entries,
 
         // width of tag cloud
-        width: 450,
+        width: 3000,
 
         // height of tag cloud
         height: 450,
 
         // radius of tag cloud
-        radius: "80%",
+        radius: "70",
 
         // min radius of tag cloud
         radiusMin: 75,

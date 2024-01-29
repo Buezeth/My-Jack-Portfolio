@@ -31,6 +31,9 @@
     margin-right: 5px;
     color: red;
 }
+.right-context a {
+    background: none;
+}
 
 .right-context .cloud-sound a {
     color: #ea4848;
