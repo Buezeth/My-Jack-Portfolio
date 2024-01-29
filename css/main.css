@@ -102,7 +102,7 @@ body {
 
 a {
     text-decoration: none;
-    background: var(--background-aside-color);
+    /* background: var(--background-aside-color); */
 }
 
 .p-open-tag .front{
@@ -112,6 +112,7 @@ a {
 
 .portfolio p {
     width: 70%;
+    line-height: 1.75rem;
 }
 
 .see-more {
@@ -171,7 +172,8 @@ a {
     }
 
     .portfolio p {
-        width: 100%;
+        width: 95%;
+        line-height: 1.75rem;
     }
 
     .hide-on-mobile {
@@ -179,8 +181,8 @@ a {
     }
 
     .main-Page-content {
-        margin-left: 0;
-        width: 80vw;
+        margin: 0;
+        width: 100%;
     }
 
     .show-on-mobile {

@@ -1,4 +1,5 @@
 .scroll {
+    /* display: none !important; */
     width: 90vw;
     /* margin-left: 5%; */
     background: blue;
@@ -26,11 +27,12 @@
     font-size: 0.90rem;
     /* justify-content: flex-start; */
     animation: scroll  2.5s infinite ease-in-out;
-    /* width: 100px; */
+    /* width: 80px; */
 }
 
 .scroll-down p, .scroll-down2 p {
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
+    rotate: 90deg;
 }
 
 @keyframes scroll {
@@ -53,6 +55,7 @@
     100% {
         /* transform: rotate(90deg); */
         transform: translate(0, 10px);
+
     }
     
 }
@@ -60,5 +63,17 @@
 @media(max-width: 1300px) {
     .scroll {
         width: 100vw;
+    }
+}
+@media(max-width: 600px) {
+    .scroll {
+        width: 104vw;
+        right: 70px;
+    }
+
+    .scroll-down2 {
+        right: -10px;
+        height: 500px;
+        width: 75px;
     }
 }

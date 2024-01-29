@@ -4,12 +4,20 @@
 }
 
 #tag-cloud {
-    /* width: 10%;
-    height: 10%; */
+    width: 100%;
     margin-top: 100px;
     position: relative;
-    /* right: 80px; */
+    /* overflow: hidden; */
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -80px;
     /* top: 50%; */
+}
+
+#tag-cloud .svg {
+    width: 100px;
 }
 .article-3 .box {
     display: flex;
@@ -26,6 +34,10 @@
     }
 
     .article-3 .p-open-tag p{
-        width: 100%;
+        width: 95%;
+        /* line-height: 2rem; */
+    }
+    #tag-cloud {
+        left: -50px;
     }
 }

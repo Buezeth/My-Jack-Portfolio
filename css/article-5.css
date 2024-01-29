@@ -7,6 +7,10 @@
     gap: 100px;
 }
 
+.article-5 .p-open-tag p {
+    width: 90%;
+    line-height: 1.75rem;
+}
 .sign {
     background: black;
     width: 210px;

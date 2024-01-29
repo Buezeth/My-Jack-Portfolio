@@ -11,10 +11,12 @@
 .body-open-tag::before {
     content: "<body>";
     left: 10px;
+    width: 200px;
 }
 .body-open-tag::after {
     content: "</body>";
     left: 10px;
+    width: 200px;
 }
 
 

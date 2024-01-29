@@ -40,10 +40,13 @@
     .blog {
         font-size: 15rem;
     }
+    .article-open-tag {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }
 
 @media (max-width: 600px) {
     .blog {
-        font-size: 12rem;
+        font-size: 10rem;
     }
 }
