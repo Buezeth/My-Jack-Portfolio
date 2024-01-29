@@ -6,6 +6,7 @@
     top: 50px;
     z-index: 2;
     /* height: 50px; */
+    /* display: none; */
 }
 .right-context .awwwards {
     position: relative;

@@ -50,7 +50,7 @@ gsap.registerPlugin(ScrollTrigger);
       chargingAnimation();
       setTimeout(()=>{
         window.location.reload();
-      }, 1600)
+      }, 1700)
     }));
 
     
@@ -66,19 +66,19 @@ gsap.registerPlugin(ScrollTrigger);
     //=============Bounce AutoPlay=======================//
     //===================================================//
 
-    const article2 = document.querySelector(".article-4");
+    // const article2 = document.querySelector(".article-4");
 
-    window.addEventListener("scroll", (event)=>{
-      let scrolled = window.scrollY;
+    // window.addEventListener("scroll", (event)=>{
+    //   let scrolled = window.scrollY;
 
-      let article2Position = article2.offsetTop;
+    //   let article2Position = article2.offsetTop;
 
-      if(scrolled == article2Position) {
-        console.log("scrolled")
-        playMe();
-      }
-    })
+    //   if(scrolled == article2Position) {
+    //     console.log("scrolled")
+    //     playMe();
+    //   }
+    // })
 
-    function playMe() {
-      console.log("Just Scrolled");
-    }
+    // function playMe() {
+    //   console.log("Just Scrolled");
+    // }

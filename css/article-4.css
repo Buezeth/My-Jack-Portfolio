@@ -35,3 +35,15 @@
 .blog-1 a {
     background: none;
 }
+
+@media (max-width: 1300px) {
+    .blog {
+        font-size: 15rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .blog {
+        font-size: 12rem;
+    }
+}
