@@ -80,7 +80,7 @@ $(document).ready(function () {
         entries: entries,
 
         // width of tag cloud
-        width: 3000,
+        width: 400,
 
         // height of tag cloud
         height: 450,

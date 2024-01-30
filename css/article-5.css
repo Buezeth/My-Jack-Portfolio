@@ -62,14 +62,16 @@
 
 
 .form-tag-open .name-email {
-    display: flex;
+    display: grid;
     /* flex-direction: column; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
-    /* max-width: 49%; */
+    width: 100%;
 }
 .name-email div input {
-    width: 100% !important;
+    display: inline-block;
+    width: 100% ;
 }
 .form-tag-open div{
     margin-bottom: 10px;
